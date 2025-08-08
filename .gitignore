@@ -63,7 +63,7 @@ data/*.json
 # Reports and outputs (generated files)
 reports/*.json
 reports/*.csv
-research_report_*.md
+comprehensive_research_report_*.md
 comparison_results_*.csv
 extended_comparison_*.csv
 test_results_*.json
