@@ -1,0 +1,48 @@
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
+ignore = [
+    "E501",  # Line too long (handled by formatter)
+    "F401",  # Imported but unused
+    "F841",  # Local variable assigned but never used  
+]
+fixable = ["ALL"]
+unfixable = []
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+
+# Pytest configuration
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_functions = ["test_*"]
+addopts = [
+    "--cov=src",
+    "--cov-report=html",
+    "--cov-report=term-missing",
+    "-v"
+]
+
+# Type checking relaxed for research project
+[tool.mypy]
+python_version = "3.11"
+ignore_missing_imports = true
+disallow_untyped_defs = false
+warn_return_any = false
+warn_unused_configs = false
+
+# Ignore complex library types
+[[tool.mypy.overrides]]
+module = [
+    "pandas.*",
+    "langchain.*", 
+    "openai.*",
+    "spacy.*",
+    "numpy.*"
+]
+ignore_errors = true

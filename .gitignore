@@ -1,0 +1,137 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data files (but keep sample structure)
+data/*.csv
+data/*.tsv
+data/*.xls
+data/*.xlsx
+data/*.pdf
+data/*.docx
+data/*.json
+!data/README.md
+
+# Reports and outputs (generated files)
+reports/*.json
+reports/*.csv
+research_report_*.md
+comparison_results_*.csv
+extended_comparison_*.csv
+test_results_*.json
+*.log
+*.db
+*.sqlite
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# API keys and secrets
+.env.local
+.env.production
+secrets.txt
+api_keys.txt
+
+# Ruff cache
+.ruff_cache/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Archive formats
+*.gz
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+*.h5
+*.hdf5
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.joblib
+
+# Old structure files (cleanup)
+analyze_mismatches.py
+debug_tools.py
+research_comparison.py
+test_agent_analysis.py
+test_analysis.py
+test_fixes.py
+test_inversions.py
+test_publisher_fixes.py
+test_publishers.py
+test_sample_analysis.py
+
+# Keep these important files in root
+!main.py
+!text_normalization_demo.ipynb
+!README.md
+!requirements.txt
+!pyproject.toml
+!conftest.py
