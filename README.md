@@ -1,6 +1,18 @@
 # Agentic Text Normalization
 
-> **Advanced AI-powered text normalization system comparing rule-based patterns, hybrid agents, and full LLM-po## 📊 Research Findings & Reports
+> Advanced AI-powered text normalization comparing rule-based, hybrid, and agentic LLM approaches.
+
+[![CI](https://github.com/zarmaks/agentic_text_norm/actions/workflows/ci.yml/badge.svg)](https://github.com/zarmaks/agentic_text_norm/actions)
+[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
+[![OpenAI GPT](https://img.shields.io/badge/powered%20by-OpenAI%20GPT-green.svg)](https://openai.com/)
+[![LangChain](https://img.shields.io/badge/framework-LangChain-orange.svg)](https://langchain.com/)
+[![spaCy](https://img.shields.io/badge/NLP-spaCy-blue.svg)](https://spacy.io/)
+[![pytest](https://img.shields.io/badge/tests-pytest-green.svg)](https://pytest.org/)
+[![Ruff](https://img.shields.io/badge/code%20style-ruff-000000.svg)](https://github.com/astral-sh/ruff)
+[![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Research](https://img.shields.io/badge/type-research-purple.svg)](docs/methodology.md)
+
+## 📊 Research Findings & Reports
 
 ### Key Insights (100-Sample Analysis)
 
@@ -14,18 +26,9 @@
 
 **Create your own reports**: `python comprehensive_research.py --samples 50`
 
-- **[📊 100-Sample Comprehensive Analysis](docs/research_report_100samples.md)**: Complete performance metrics and error analysis
+- **[📊 100-Sample Comprehensive Analysis](reports/research_report_100samples.md)**: Complete performance metrics and error analysis
 - **[📋 Research Methodology](docs/methodology.md)**: Technical approach and validation framework
-- **Auto-Generated**: `comprehensive_research_report_*.md` files created on-demandches for music industry composer/writer name cleaning.**
-
-[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
-[![OpenAI GPT](https://img.shields.io/badge/powered%20by-OpenAI%20GPT-green.svg)](https://openai.com/)
-[![LangChain](https://img.shields.io/badge/framework-LangChain-orange.svg)](https://langchain.com/)
-[![spaCy](https://img.shields.io/badge/NLP-spaCy-blue.svg)](https://spacy.io/)
-[![pytest](https://img.shields.io/badge/tests-pytest-green.svg)](https://pytest.org/)
-[![Ruff](https://img.shields.io/badge/code%20style-ruff-000000.svg)](https://github.com/astral-sh/ruff)
-[![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Research](https://img.shields.io/badge/type-research-purple.svg)](docs/methodology.md)
+- **Auto-Generated**: `comprehensive_research_report_*.md` files created on-demand
 
 ## 🎯 Project Overview
 
@@ -178,9 +181,8 @@ agentic_text_norm/
 
 **Create your own reports**: `python comprehensive_research.py --samples 50`
 
-- **[📊 100-Sample Comprehensive Analysis](reports/research_report_100samples.md)**: Complete performance metrics and error analysis
-- **[📋 Research Methodology](docs/methodology.md)**: Technical approach and validation framework
-- **Auto-Generated**: `reports/comprehensive_research_report_*.md` files created on-demand
+- **[📊 100-Sample Research Report](reports/research_report_100samples.md)**: Comprehensive performance analysis with detailed metrics
+- **[All Research Reports](reports/)**: Complete collection of analysis reports
 
 ### Performance Breakdown
 
@@ -213,15 +215,15 @@ agentic_text_norm/
 
 ### Installation
 
-```bash
+```powershell
 # Clone repository
-git clone https://github.com/your-username/agentic_text_norm.git
+git clone https://github.com/zarmaks/agentic_text_norm.git
 cd agentic_text_norm
 
 # Create and activate virtual environment
 python -m venv .venv
-.venv\Scripts\activate     # Windows
-# source .venv/bin/activate  # Linux/Mac
+.\.venv\Scripts\Activate.ps1  # Windows PowerShell
+# source .venv/bin/activate     # Linux/Mac
 
 # Install dependencies
 pip install -r requirements.txt
